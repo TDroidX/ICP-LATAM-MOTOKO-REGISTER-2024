@@ -34,7 +34,7 @@ https://internetcomputer.org/docs/current/developer-docs/setup/install/
 -dfx --version
 
 * CLONAR REPOSITORIO *
--
+-https://github.com/TDroidX/ICP-LATAM-MOTOKO-REGISTER-2024/tree/main
 -cd ICP-Developer
 -npm install
 -dfx start --background --clean
