@@ -3,7 +3,7 @@ BIENVENIDO A NUESTRO PROGRAMA DE CERTIFICACIÓN EN MOTOKO
 El proyecto es sencillo, consiste en un formulario el cual pueda registrar el nombre, numero telefonico, nombre de la mascota y sintomas, esto lo guarda en una blockchain y deja el registro almacenado con un ID para su respectivo chequeo, 
 su funcionalidad consiste en un CRUD, con el cual puedas manejar de manera sencilla la información proporcionada mediante el uso de MOTOKO.
 
-###PAQUETES NECESARIOS PARA SU EJECUCIÓN:
+### PAQUETES NECESARIOS PARA SU EJECUCIÓN:
 
 * WSL
 ```bash
@@ -20,7 +20,7 @@ sudo apt install curl
 ```
 
 * INSTALAR NODE.JS, NVM Y NPM
-https://learn.microsoft.com/en-us/windows/dev-environment/javascript/nodejs-on-wsl
+###  https://learn.microsoft.com/en-us/windows/dev-environment/javascript/nodejs-on-wsl
 ```bash
 curl -o- https://raw.githubusercontent.com/nvm-sh/nvm/master/install.sh | bash
 ```
