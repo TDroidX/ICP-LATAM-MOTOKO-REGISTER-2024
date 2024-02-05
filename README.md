@@ -19,7 +19,7 @@ sudo apt update
 sudo apt install curl
 ```
 
-###  INSTALAR NODE.JS, NVM Y NPM
+###  INSTALAR NODE.JS, NVM Y NPM.
 ###  https://learn.microsoft.com/en-us/windows/dev-environment/javascript/nodejs-on-wsl
 ```bash
 curl -o- https://raw.githubusercontent.com/nvm-sh/nvm/master/install.sh | bash
@@ -28,13 +28,13 @@ curl -o- https://raw.githubusercontent.com/nvm-sh/nvm/master/install.sh | bash
 nvm install --lts
 ```
 
-###  INSTALAR VSCODE
+###  INSTALAR VSCODE.
 ```bash
 https://code.visualstudio.com/download
 ```
 ###  Instalar la version de su sitema operativo e instalar la extensión de WSL en VsCode.
 
-###  INSTALAR GIT 
+###  INSTALAR GIT.
 Si tienes Linux/WSL:
 ```bash
 sudo apt install git
