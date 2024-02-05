@@ -5,12 +5,12 @@ su funcionalidad consiste en un CRUD, con el cual puedas manejar de manera senci
 
 ### PAQUETES NECESARIOS PARA SU EJECUCIÓN:
 
-* WSL
+###  WSL
 ```bash
 wsl --install
 ```
 
-* ABRIR UBUNTU
+###  ABRIR UBUNTU
 ```bash
 sudo apt update
 ```
@@ -19,7 +19,7 @@ sudo apt update
 sudo apt install curl
 ```
 
-* INSTALAR NODE.JS, NVM Y NPM
+###  INSTALAR NODE.JS, NVM Y NPM
 ###  https://learn.microsoft.com/en-us/windows/dev-environment/javascript/nodejs-on-wsl
 ```bash
 curl -o- https://raw.githubusercontent.com/nvm-sh/nvm/master/install.sh | bash
@@ -28,26 +28,25 @@ curl -o- https://raw.githubusercontent.com/nvm-sh/nvm/master/install.sh | bash
 nvm install --lts
 ```
 
-* INSTALAR VSCODE
+###  INSTALAR VSCODE
 ```bash
 https://code.visualstudio.com/download
 ```
-" Instalar la version de su sitema operativo e instalar la extensión de WSL en VsCode. "
+###  Instalar la version de su sitema operativo e instalar la extensión de WSL en VsCode.
 
-* INSTALAR GIT 
+###  INSTALAR GIT 
 Si tienes Linux/WSL:
 ```bash
 sudo apt install git
 ```
 
 
-Si tienes Mac:
+###  Si tienes Mac:
 ```bash
 https://git-scm.com/download/mac
 ```
 
-* INSTALAR DFX
-* 
+###  INSTALAR DFX 
 https://internetcomputer.org/docs/current/developer-docs/setup/install/
 ```bash
 sh -ci "$(curl -fsSL https://internetcomputer.org/install.sh)"
@@ -55,8 +54,7 @@ sh -ci "$(curl -fsSL https://internetcomputer.org/install.sh)"
 ```bash
 dfx --version
 ```
-* CLONAR REPOSITORIO
-* 
+###  CLONAR REPOSITORIO 
 ```bash
 https://github.com/TDroidX/ICP-LATAM-MOTOKO-REGISTER-2024/tree/main
 ```
@@ -72,11 +70,11 @@ dfx start --background --clean
 ```bash
 dfx deploy
 ```
-* SI FALLA AL CORRER EJECUTAS 
+###  SI FALLA AL CORRER EJECUTAS 
 ```bash
 dfx generate
 ```
-* LUEGO 
+###  LUEGO 
 ```bash
 dfx deploy
 ```
